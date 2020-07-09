@@ -38,7 +38,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"please read the <a href='https://t.me/c/{channel_id}/{message_id}'>Pinned Message</a>",
+        f"Hoi,Don't Leech Porn,Plox",
         quote=True
     )
 
@@ -47,13 +47,13 @@ async def rename_message_f(client, message):
     inline_keyboard = []
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
-            text="read this?",
-            url="https://t.me/keralagram/698909"
+            text="Really Nigga?",
+            url="https://t.me/durov"
         )
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "please use @renamebot",
+        "Kollarudhh",
         quote=True,
         reply_markup=reply_markup
     )
